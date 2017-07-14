@@ -1,0 +1,1329 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+section::-webkit-scrollbar {
+  width: 0;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+}
+.container header span {
+  -webkit-box-flex: 1;
+  text-align: center;
+  display: block;
+  font-size: 0.25rem;
+  color: #ffffff;
+}
+.container section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+}
+.container section .nav {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.25rem;
+  background: #4194f0;
+}
+.container section .nav .dayang {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container section .nav .star {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url("../img/shoucang.png");
+  background-size: 0.35rem auto;
+  margin-right: 0.2rem;
+}
+.container section .nav .center {
+  margin-top: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-left: 0.2rem;
+}
+.container section .nav .center p {
+  font-size: 0.25rem;
+  color: #ffffff;
+}
+.container section .nav .center img {
+  width: 0.58rem;
+  height: auto;
+  background: none;
+}
+.container section .nav .left {
+  position: relative;
+  margin-left: 0.3rem;
+}
+.container section .nav .left img {
+  width: 1.06rem;
+  height: 1.06rem;
+  background: none;
+}
+.container section .banner {
+  width: 100%;
+  height: 0.68rem;
+  background: none;
+  border-bottom: 1px solid #cccccc;
+}
+.container section .banner ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .banner ul .shang {
+  color: #4194F0;
+  border-bottom: 3px solid #4194f0;
+}
+.container section .banner ul li {
+  width: 2.15rem;
+  height: 0.64rem;
+  background: none;
+  text-align: center;
+  line-height: 0.64rem;
+}
+.container section .main {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 9rem;
+  background: none;
+}
+.container section .main .left {
+  width: 1.35rem;
+  height: 9rem;
+  background: #f5f5f5;
+}
+.container section .main .left .item {
+  width: 1.35rem;
+  height: 1.1rem;
+  background: none;
+  border-bottom: 1px solid #eaeaea;
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .main .left .item:hover {
+  background: #fff;
+  color: #4194f0;
+}
+.container section .main .right {
+  width: 5.05rem;
+  height: 9rem;
+  background: #bbbbbb;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.container section .main .right .nav {
+  width: 4.95rem;
+  height: 0.66rem;
+  background: #f5f5f5;
+  margin-left: 0.1rem;
+  border-bottom: 1px solid #eeeeee;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .main .right .nav ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .main .right .nav ul li {
+  color: #afafaf;
+  margin-left: 0.22rem;
+  text-align: center;
+  line-height: 0.45rem;
+  width: 0.8rem;
+  height: 0.45rem;
+  background: #ffffff;
+  border: 1px solid #999999;
+  border-radius: 0.19rem;
+}
+.container section .main .right .banner {
+  width: 5.05rem;
+  height: 1.8rem;
+  background: #ffffff;
+  position: relative;
+}
+.container section .main .right .banner .center {
+  width: 4.65rem;
+  height: 1.8rem;
+  background: none;
+  margin-left: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+.container section .main .right .banner .center dl {
+  width: 4.65re;
+  height: 1.15rem;
+  background: none;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  box-sizing: border-box;
+}
+.container section .main .right .banner .center dl dt img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+  border: 1px solid #e1e3e6;
+}
+.container section .main .right .banner .center dl dd {
+  margin-left: 0.22rem;
+}
+.container section .main .right .banner .center dl dd h1 {
+  font-size: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.container section .main .right .banner .center dl dd p {
+  font-size: 0.19rem;
+  margin-bottom: 0.1rem;
+  color: #808080;
+}
+.container section .main .right .banner .center dl dd span {
+  font-size: 0.2rem;
+  color: #ff5a64;
+}
+.container section .main .right .banner .center dl dd span img {
+  width: 0.55rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner .center dl dd a {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #acacac;
+  display: block;
+  text-align: center;
+  line-height: 0.5rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container section .main .right .banner .center dl dd a img {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+}
+.container section .main .right .banner .center form {
+  margin-top: 0.05rem;
+}
+.container section .main .right .banner .center form .txt {
+  width: 1.79rem;
+  height: 0.3rem;
+  background: none;
+  border: 1px solid #ff8c33;
+  outline: none;
+  color: #ff8c33;
+}
+.container section .main .right .banner .center form .tx {
+  width: 1rem;
+  height: 0.35rem;
+  background: #ff8c33;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.container section .main .right .banner h1 img {
+  width: 0.58rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container section .main .right .banner1 {
+  width: 5.05rem;
+  height: 1.45rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .main .right .banner1 .center {
+  width: 4.65rem;
+  height: 1.45rem;
+  background: none;
+  margin-left: 0.2rem;
+}
+.container section .main .right .banner1 .center dl {
+  width: 4.65re;
+  height: 1.15rem;
+  background: none;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  box-sizing: border-box;
+}
+.container section .main .right .banner1 .center dl dt img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner1 .center dl dd {
+  margin-left: 0.22rem;
+}
+.container section .main .right .banner1 .center dl dd h1 {
+  font-size: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.container section .main .right .banner1 .center dl dd p {
+  font-size: 0.19rem;
+  margin-bottom: 0.1rem;
+  color: #808080;
+}
+.container section .main .right .banner1 .center dl dd span {
+  font-size: 0.2rem;
+  color: #ff5a64;
+}
+.container section .main .right .banner1 .center dl dd span img {
+  width: 0.55rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner1 .center dl dd a {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #acacac;
+  display: block;
+  text-align: center;
+  line-height: 0.5rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container section .main .right .banner1 .center dl dd a img {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+}
+.container section .main .right .banner2 {
+  width: 5.05rem;
+  height: 1.45rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .main .right .banner2 .center {
+  width: 4.65rem;
+  height: 1.45rem;
+  background: none;
+  margin-left: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+.container section .main .right .banner2 .center dl {
+  width: 4.65re;
+  height: 1.15rem;
+  background: none;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  box-sizing: border-box;
+}
+.container section .main .right .banner2 .center dl dt img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner2 .center dl dt .tx {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.container section .main .right .banner2 .center dl dd {
+  margin-left: 0.22rem;
+}
+.container section .main .right .banner2 .center dl dd h1 {
+  font-size: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.container section .main .right .banner2 .center dl dd p {
+  font-size: 0.19rem;
+  margin-bottom: 0.1rem;
+  color: #808080;
+}
+.container section .main .right .banner2 .center dl dd span {
+  font-size: 0.2rem;
+  color: #ff5a64;
+}
+.container section .main .right .banner2 .center dl dd span img {
+  width: 0.55rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner2 .center dl dd a {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #acacac;
+  display: block;
+  text-align: center;
+  line-height: 0.5rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container section .main .right .banner2 .center dl dd a img {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+}
+.container section .main .right .banner3 {
+  width: 5.05rem;
+  height: 1.45rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .main .right .banner3 .center {
+  width: 4.65rem;
+  height: 1.45rem;
+  background: none;
+  margin-left: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+.container section .main .right .banner3 .center dl {
+  width: 4.65re;
+  height: 1.15rem;
+  background: none;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  box-sizing: border-box;
+}
+.container section .main .right .banner3 .center dl dt img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner3 .center dl dd {
+  margin-left: 0.22rem;
+}
+.container section .main .right .banner3 .center dl dd h1 {
+  font-size: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.container section .main .right .banner3 .center dl dd p {
+  font-size: 0.19rem;
+  margin-bottom: 0.1rem;
+  color: #808080;
+}
+.container section .main .right .banner3 .center dl dd span {
+  font-size: 0.2rem;
+  color: #ff5a64;
+}
+.container section .main .right .banner3 .center dl dd span img {
+  width: 0.55rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner3 .center dl dd a {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #acacac;
+  display: block;
+  text-align: center;
+  line-height: 0.5rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container section .main .right .banner3 .center dl dd a img {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+}
+.container section .main .right .banner4 {
+  width: 5.05rem;
+  height: 1.45rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .main .right .banner4 .center {
+  width: 4.65rem;
+  height: 1.45rem;
+  background: none;
+  margin-left: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+.container section .main .right .banner4 .center dl {
+  width: 4.65re;
+  height: 1.15rem;
+  background: none;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  box-sizing: border-box;
+}
+.container section .main .right .banner4 .center dl dt img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner4 .center dl dd {
+  margin-left: 0.22rem;
+}
+.container section .main .right .banner4 .center dl dd h1 {
+  font-size: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.container section .main .right .banner4 .center dl dd p {
+  font-size: 0.19rem;
+  margin-bottom: 0.1rem;
+  color: #808080;
+}
+.container section .main .right .banner4 .center dl dd span {
+  font-size: 0.2rem;
+  color: #ff5a64;
+}
+.container section .main .right .banner4 .center dl dd span img {
+  width: 0.55rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .banner4 .center dl dd a {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #acacac;
+  display: block;
+  text-align: center;
+  line-height: 0.5rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container section .main .right .banner4 .center dl dd a img {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+}
+.container section .pingjia {
+  width: 100%;
+  height: 9rem;
+  background: #f2f5f7;
+}
+.container section .pingjia .p_banner {
+  width: 100%;
+  height: 1.33rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .pingjia .p_banner .a {
+  width: 1.8rem;
+  height: 0.9rem;
+  background: none;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+  text-align: center;
+  border-right: 1px solid #e6e9eb;
+}
+.container section .pingjia .p_banner .a h1 {
+  font-size: 0.3rem;
+  color: #ffb82e;
+}
+.container section .pingjia .p_banner .a h2 {
+  font-size: 0.2rem;
+}
+.container section .pingjia .p_banner .a p {
+  font-size: 0.2rem;
+  color: #b6b6b6;
+}
+.container section .pingjia .p_banner .b {
+  width: 2.75rem;
+  height: 0.75rem;
+  background: none;
+  margin-left: 0.62rem;
+  margin-top: 0.3rem;
+}
+.container section .pingjia .p_banner .b .top {
+  width: 2.75rem;
+  height: 0.25rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-bottom: 0.2rem;
+}
+.container section .pingjia .p_banner .b .top span {
+  font-size: 0.22rem;
+  margin-right: 0.15rem;
+}
+.container section .pingjia .p_banner .b .top .one {
+  margin-right: 0.1rem;
+  -webkit-box-flex: 1;
+  width: 1.1rem;
+  overflow: hidden;
+  height: 0.2rem;
+  margin-top: 0.1rem;
+  display: block;
+  background: url("../img/xing.png") repeat-x;
+  background-size: 1.1rem;
+}
+.container section .pingjia .p_banner .b .top .one .two {
+  background: url("../img/sexing.png") repeat-x;
+  width: 65%;
+  height: 0.2rem;
+  background-size: 1.1rem;
+}
+.container section .pingjia .p_banner .b .top a {
+  font-size: 0.22rem;
+  color: #ffb82e;
+}
+.container section .pingjia .p_main {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.35rem;
+  background: #ffffff;
+  margin-top: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.container section .pingjia .p_main .a {
+  width: 1.98rem;
+  height: 1.35rem;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.container section .pingjia .p_main .a dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 0.18rem;
+  margin-top: 0.15rem;
+}
+.container section .pingjia .p_main .a dl dt {
+  margin-right: 0.12rem;
+}
+.container section .pingjia .p_main .a dl dt img {
+  width: 0.65rem;
+  height: auto;
+  background: none;
+}
+.container section .pingjia .p_main .a dl dd span {
+  font-size: 0.2rem;
+}
+.container section .pingjia .p_main .a dl dd .one {
+  margin-right: 0.1rem;
+  -webkit-box-flex: 1;
+  width: 1.1rem;
+  overflow: hidden;
+  height: 0.2rem;
+  margin-top: 0.1rem;
+  display: block;
+  background: url("../img/xing.png") repeat-x;
+  background-size: 1.1rem;
+}
+.container section .pingjia .p_main .a dl dd .one .two {
+  background: url("../img/sexing.png") repeat-x;
+  width: 65%;
+  height: 0.2rem;
+  background-size: 1.1rem;
+}
+.container section .pingjia .p_main .a dl dd p {
+  font-size: 0.2rem;
+  margin-top: 0.15rem;
+}
+.container section .pingjia .p_main .b {
+  width: 1.8rem;
+  height: 0.18rem;
+  background: none;
+  font-size: 0.15rem;
+  margin-top: 0.15rem;
+  color: #c3c3c3;
+}
+.container section .pingjia .p_main1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.35rem;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+.container section .pingjia .p_main1 .a {
+  width: 1.98rem;
+  height: 1.35rem;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.container section .pingjia .p_main1 .a dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 0.18rem;
+  margin-top: 0.15rem;
+}
+.container section .pingjia .p_main1 .a dl dt {
+  margin-right: 0.12rem;
+}
+.container section .pingjia .p_main1 .a dl dt img {
+  width: 0.65rem;
+  height: auto;
+  background: none;
+}
+.container section .pingjia .p_main1 .a dl dd span {
+  font-size: 0.2rem;
+}
+.container section .pingjia .p_main1 .a dl dd .one {
+  margin-right: 0.1rem;
+  -webkit-box-flex: 1;
+  width: 1.1rem;
+  overflow: hidden;
+  height: 0.2rem;
+  margin-top: 0.1rem;
+  display: block;
+  background: url("../img/xing.png") repeat-x;
+  background-size: 1.1rem;
+}
+.container section .pingjia .p_main1 .a dl dd .one .two {
+  background: url("../img/sexing.png") repeat-x;
+  width: 65%;
+  height: 0.2rem;
+  background-size: 1.1rem;
+}
+.container section .pingjia .p_main1 .a dl dd p {
+  font-size: 0.2rem;
+  margin-top: 0.15rem;
+}
+.container section .pingjia .p_main1 .b {
+  width: 1.8rem;
+  height: 0.18rem;
+  background: none;
+  font-size: 0.15rem;
+  margin-top: 0.15rem;
+  color: #c3c3c3;
+}
+.container footer {
+  width: 100%;
+  height: 0.88rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  z-index: 90;
+}
+.container footer .car .a {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  margin-left: 0.15rem;
+  display: block;
+  background: #393939 url("../img/矢量智能对象.png") no-repeat 0.2rem center;
+  background-size: 0.48rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.06rem;
+  bottom: 0.1rem;
+  border: 4px solid #4d4d4d;
+}
+.container footer .car .b {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  margin-left: 0.15rem;
+  display: block;
+  background: #4194f0 url("../img/矢量智能对象.png") no-repeat 0.2rem center;
+  background-size: 0.48rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.06rem;
+  bottom: 0.1rem;
+  border: 4px solid #4d4d4d;
+}
+.container footer .footer_car {
+  position: relative;
+}
+.container footer .footer_car .a {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  margin-left: 0.15rem;
+  display: block;
+  background: #4194f0 url("../img/矢量智能对象.png") no-repeat 0.2rem center;
+  background-size: 0.48rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.06rem;
+  bottom: 0.1rem;
+  border: 4px solid #4d4d4d;
+}
+.container footer .footer_car .b {
+  background: url("../img/04.png") no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.container footer .price {
+  -webkit-box-flex: 1;
+  padding-left: 1.44rem;
+  padding-top: 0.2rem;
+  font-size: 0.27rem;
+  color: #ffffff;
+}
+.container footer .dayang {
+  width: 2.3rem;
+  height: 0.88rem;
+  background: #535558;
+  text-align: center;
+  line-height: 0.88rem;
+}
+.container footer .dayang span {
+  color: #ffffff;
+  font-size: 0.3rem;
+}
+.container footer .jiesuan {
+  width: 2.3rem;
+  height: 0.88rem;
+  background: #ff8c50;
+  text-align: center;
+  line-height: 0.88rem;
+}
+.container footer .jiesuan span {
+  color: #ffffff;
+  font-size: 0.3rem;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zhezhao .inner {
+  width: 4.65rem;
+  height: 6.1rem;
+  background: #ffffff;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -3.05rem;
+  left: 50%;
+  margin-left: -2.325rem;
+}
+.zhezhao .inner .close {
+  width: 0.54rem;
+  height: 0.54rem;
+  background: null;
+  background: url("../img/矩形-2-副本-2.png") no-repeat;
+  background-size: 0.54rem auto;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+}
+.zhezhao .inner .fen img {
+  width: 4.65rem;
+  height: auto;
+  background: none;
+}
+.zhezhao .inner .speak {
+  width: 4.65rem;
+  height: 1.15rem;
+  background: #ffffff;
+  border-top: 1px solid #eeeeee;
+}
+.zhezhao .inner .speak span {
+  width: 4.17rem;
+  height: 0.65rem;
+  background: none;
+  display: block;
+  margin-left: 0.25rem;
+  margin-top: 0.25rem;
+}
+.zhe {
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.shop-content {
+  width: 100%;
+  height: 41.92982456%;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.shop-content .header {
+  width: 100%;
+  height: 0.67rem;
+  background: #eeeeee;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.shop-content .header span {
+  font-size: 0.25rem;
+  margin: 0 0.2rem;
+}
+.shop-content .header b {
+  -webkit-box-flex: 1;
+  display: block;
+}
+.shop-content .nav {
+  width: 100%;
+  height: 1.38rem;
+  background: none;
+  border-bottom: 1px solid #ededed;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.shop-content .nav input[type="checkbox"] {
+  display: none;
+}
+.shop-content .nav input[type="checkbox"] + label {
+  margin-left: 0.3rem;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../img/mark.png") no-repeat bottom;
+  background-size: 0.38rem auto;
+  display: block;
+}
+.shop-content .nav input[type="checkbox"]:checked + label {
+  background-position: 0 0;
+}
+.shop-content .nav span {
+  margin-left: 0.25rem;
+}
+.shop-content .nav span img {
+  width: 0.85rem;
+  height: auto;
+  background: none;
+}
+.shop-content .nav p {
+  margin-left: 0.25rem;
+  width: 1.75rem;
+  height: 1.38rem;
+  background: none;
+  font-size: 0.29rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.38rem;
+}
+.shop-content .nav a {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  font-size: 0.25rem;
+  color: #ff493b;
+}
+.shop-content .nav ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.shop-content .nav ul li {
+  margin-right: 0.15rem;
+}
+.shop-content .nav ul li img {
+  width: 0.35rem;
+  height: auto;
+  background: none;
+}
+.icon {
+  position: absolute;
+  top: -0.35rem;
+  left: 0.8rem;
+}
+.icon img {
+  width: 0.57rem;
+  height: auto;
+  background: none;
+}
+.tj_nav {
+  width: 100%;
+  height: 1.33rem;
+  background: none;
+  border-top: 10px solid #f2f5f7;
+  position: relative;
+}
+.tj_nav h1 {
+  margin-left: 0.3rem;
+  padding-top: 0.25rem;
+}
+.tj_nav dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.2rem;
+  -webkit-box-flex: 1;
+}
+.tj_nav dl dt {
+  margin-left: 0.3rem;
+  margin-right: 0.2rem;
+}
+.tj_nav dl dt img {
+  width: 0.3rem;
+  height: auto;
+  background: none;
+}
+.tj_nav dl dd {
+  width: 5rem;
+  height: 0.5rem;
+  background: none;
+  font-size: 0.2rem;
+}
+.tj_nav h2 {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.45rem;
+}
+.tj_nav h2 img {
+  width: 0.2rem;
+  height: auto;
+  background: none;
+}
+.tu {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.tj_banner {
+  width: 100%;
+  height: 0.8rem;
+  background: none;
+  border-top: 10px solid#ECECEC;
+  border-bottom: 10px solid #ECECEC;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.tj_banner h1 {
+  margin-left: 0.3rem;
+  font-size: 0.3rem;
+  margin-right: 0.6rem;
+  line-height: 0.8rem;
+}
+.tj_banner span {
+  width: 4.5rem;
+  height: 0.8rem;
+  background: none;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.8rem;
+}
+.tj_banner h2 {
+  display: block;
+  margin-top: 0.2rem;
+}
+.tj_banner h2 img {
+  width: 0.2rem;
+  height: auto;
+  background: none;
+}
+.tj_banner1 {
+  width: 100%;
+  height: 0.8rem;
+  background: none;
+  border-bottom: 1px solid #ECECEC;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.tj_banner1 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.tj_banner1 dl dt {
+  margin-left: 0.3rem;
+  margin-right: 0.2rem;
+}
+.tj_banner1 dl dt img {
+  width: 0.1rem;
+  height: auto;
+  background: none;
+}
+.tj_banner1 dl dd {
+  width: 5.5rem;
+  height: 0.8rem;
+  background: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.7rem;
+  color: #666666;
+}
+.tj_main {
+  width: auto;
+  height: 1rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 0.3rem;
+  margin-right: 0.2rem;
+  border-bottom: 1px solid #ECECEC;
+}
+.tj_main dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.tj_main dl dt {
+  padding-top: 0.1rem;
+}
+.tj_main dl dt img {
+  width: 0.85rem;
+  height: auto;
+  background: none;
+}
+.tj_main dl dd b {
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+  display: block;
+  box-sizing: border-box;
+  width: 2.8rem;
+  height: 0.55rem;
+  background: none;
+}
+.tj_main a {
+  margin-left: 0.1rem;
+  line-height: 0.8rem;
+}
+.tj_footer {
+  width: 100%;
+  height: 0.77rem;
+  background: none;
+  border-bottom: 1px solid #ECECEC;
+  border-top: 1px solid #ECECEC;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.tj_footer span {
+  margin-left: 0.3rem;
+  color: #cccccc;
+}
+.tj_footer p {
+  -webkit-box-flex: 1;
+  color: #cccccc;
+}
+.tj_footer b {
+  margin-right: 0.2rem;
+}
+.tj_footer b a {
+  color: #F45917;
+}
+.zhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.zhao .inner {
+  width: 5.1rem;
+  height: 2.98rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.55rem;
+  top: 50%;
+  margin-top: -1.49rem;
+}
+.zhao .inner .a {
+  width: 4.43rem;
+  height: 0.83rem;
+  background: none;
+  margin-left: 0.28rem;
+  margin-top: 0.7rem;
+}
+.zhao .inner .a span {
+  font-size: 0.3rem;
+}
+.zhao .inner .a b {
+  color: #4194F0;
+}
+.zhao .inner form {
+  width: 5.1rem;
+  height: 1.35rem;
+  background: none;
+}
+.zhao .inner form .txt {
+  margin-left: 0.28rem;
+  margin-right: 0.25rem;
+  margin-top: 0.4rem;
+  width: 2.1rem;
+  height: 0.75rem;
+  background: none;
+  border: 1px solid #4194F0;
+  outline: none;
+  font-size: 0.3rem;
+  color: #4194F0;
+}
+.zhao .inner form .tt {
+  width: 2.1rem;
+  height: 0.75rem;
+  background: #4194f0;
+  border: none;
+  outline: none;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.wo {
+  width: 100%;
+  height: 0.95rem;
+  background: #ffffff;
+  border-top: 1px solid #cccccc;
+}
+.wo .footer {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wo .footer dl {
+  width: 2.05rem;
+  height: 0.95rem;
+  background: none;
+  text-align: center;
+  margin-top: 0.05rem;
+}
+.wo .footer dl dt img {
+  width: 0.42rem;
+  height: auto;
+  background: none;
+}
+.w_nav ul {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #ECECEC;
+}
+.w_nav ul li {
+  width: 1.17rem;
+  height: 0.89rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.8rem;
+  text-align: center;
+  line-height: 0.89rem;
+}
+.w_nav ul li:first-child {
+  width: 1.17rem;
+  height: 0.86rem;
+  background: none;
+  border-bottom: 2px solid #4194F0;
+  color: #4194F0;
+}
+.w_banner {
+  width: 100%;
+  height: 3.33rem;
+  background: #f2f5f7;
+  overflow: hidden;
+}
+.w_banner .w_main {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: auto;
+  height: 2.86rem;
+  background: none;
+  margin-top: 0.2rem;
+  box-sizing: border-box;
+  margin-left: 0.27rem;
+  margin-right: 0.2rem;
+  border-left: 7px solid #4194F0;
+}
+.w_banner .w_main .top {
+  width: auto;
+  height: 0.65rem;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.w_banner .w_main .top span {
+  -webkit-box-flex: 1;
+  display: block;
+  margin-left: 0.18rem;
+  color: #aaaaaa;
+}
+.w_banner .w_main .top p {
+  margin-right: 0.2rem;
+  color: #666666;
+}
+.w_banner .w_main .center {
+  -webkit-box-flex: 1;
+}
+.w_banner .w_main .center h1 {
+  margin-left: 0.18rem;
+  margin-top: 0.21rem;
+}
+.w_banner .w_main .center h1 img {
+  width: 0.3rem;
+  height: auto;
+  background: none;
+  margin-right: 0.07rem;
+}
+.w_banner .w_main .center p {
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.w_banner .w_main .center p img {
+  width: 0.2rem;
+  height: auto;
+  background: none;
+  margin-right: 0.07rem;
+}
+.w_banner .w_main .center span {
+  margin-left: 0.5rem;
+}
+.w_banner .w_main .center span img {
+  width: 0.2rem;
+  height: auto;
+  background: none;
+  margin-right: 0.07rem;
+}
+.w_banner .w_main .zui {
+  width: auto;
+  height: 0.65rem;
+  background: #ffffff;
+  border-top: 1px solid #eeeeee;
+  line-height: 0.65rem;
+}
+.w_banner .w_main .zui .shan {
+  margin-left: 4.2rem;
+  width: 1.37rem;
+  height: 0.5rem;
+  background: none;
+  line-height: 0.5rem;
+  border: none;
+  outline: none;
+  border: 1px solid #000000;
+  border-radius: 0.1rem;
+}

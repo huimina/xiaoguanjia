@@ -1,0 +1,760 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header img {
+  width: 0.45rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+}
+.container header h1 {
+  font-size: 0.37rem;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: normal;
+}
+.container section {
+  position: relative;
+}
+.container section .nav1 {
+  width: null;
+  height: 0.85rem;
+  background: #f3f3f5;
+  line-height: 0.95rem;
+}
+.container section .nav1 input {
+  width: 90.625%;
+  border: none;
+  outline: none;
+  text-indent: 0.46rem;
+  font-size: 0.22rem;
+  color: #aaaaaa;
+  line-height: 0.6rem;
+  width: 7rem;
+  height: 0.6rem;
+  background: none;
+  margin-left: 0.35rem;
+  border-radius: 0.08rem;
+  background: #ffffff url("../img/search-icon.png") no-repeat 0.11rem center;
+}
+.container section .banner1 {
+  width: 100%;
+  height: 1.2rem;
+  background: none;
+}
+.container section .banner1 span {
+  width: 100%;
+  height: 0.48rem;
+  background: none;
+  display: block;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+  font-size: 0.24rem;
+  color: #aaaaaa;
+  margin-left: 0.29rem;
+}
+.container section .banner1 span img {
+  margin-right: 0.12rem;
+}
+.container section .banner1 h1 {
+  font-size: 0.26rem;
+  color: #4194f0;
+  margin-top: 0.15rem;
+  margin-left: 0.6rem;
+}
+.container section .tiao {
+  width: auto;
+  height: 0.45rem;
+  background: #f3f2f5;
+  margin-right: 0.53rem;
+}
+.container section .tiao h1 {
+  font-size: 0.26rem;
+  line-height: 0.45rem;
+  margin-left: 0.3rem;
+}
+.container section .main {
+  line-height: 0.99rem;
+  width: auto;
+  height: 0.99rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+  border-bottom: 1px solid #e6e9eb;
+}
+.container section .main h1 {
+  font-size: 0.27rem;
+  color: #4194f0;
+}
+.container section .main1 {
+  line-height: 0.99rem;
+  width: auto;
+  height: 0.99rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+  border-bottom: 1px solid #e6e9eb;
+}
+.container section .main1 h1 {
+  font-size: 0.27rem;
+}
+.container section .a {
+  text-align: center;
+}
+.container section .a h1 {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #4194f0;
+  color: #ffffff;
+  font-size: 0.35rem;
+  line-height: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2rem;
+  margin-left: -0.5rem;
+  border-radius: 0.08rem;
+}
+.container section .b {
+  width: 0.54rem;
+  height: 6.05rem;
+  background: none;
+  position: absolute;
+  top: 2.3rem;
+  right: 0;
+}
+.container section .b ul li {
+  width: 0.54rem;
+  height: 0.24rem;
+  background: none;
+  text-align: center;
+  font-size: 0.22rem;
+  color: #4194f0;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header img {
+  width: 0.45rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+}
+.container header h1 {
+  font-size: 0.37rem;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: normal;
+}
+.container section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.container section .nav {
+  width: 100%;
+  height: 0.99rem;
+  background: none;
+  border-bottom: 1px solid #dcdcdc;
+  line-height: 0.99rem;
+}
+.container section .nav span {
+  font-size: 0.3rem;
+  margin-left: 0.3rem;
+}
+.container section .nav a {
+  margin-left: 5rem;
+  font-size: 0.3rem;
+  color: #4194f0;
+}
+.container section .nav a b {
+  font-size: 0.2rem;
+}
+.container section .banner {
+  width: 100%;
+  height: 0.74rem;
+  background: #f2f5f7;
+  border-bottom: 1px solid #DCDCDC;
+  line-height: 0.74rem;
+}
+.container section .banner span {
+  font-size: 0.25rem;
+  margin-left: 0.32rem;
+  color: #000000;
+}
+.container section .zf_main {
+  width: 100%;
+  height: 10rem;
+  background: #f2f5f7;
+}
+.container section .zf_main .check {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 0.89rem;
+  background: #ffffff;
+  border-bottom: 1px solid #DCDCDC;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .zf_main .check span {
+  font-size: 0.27rem;
+  margin-left: 0.25rem;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.container section .zf_main .check a {
+  font-size: 0.27rem;
+  color: red;
+  margin-right: 0.28rem;
+}
+.container section .zf_main .check b {
+  margin-left: 0.25rem;
+}
+.container section .zf_main .check input[type="checkbox"] {
+  display: none;
+}
+.container section .zf_main .check input[type="checkbox"] + label {
+  margin-left: 0.3rem;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../img/mark.png") no-repeat bottom;
+  background-size: 0.38rem auto;
+  display: block;
+}
+.container section .zf_main .check input[type="checkbox"]:checked + label {
+  background-position: 0 0;
+}
+.container section .zf_main .check1 {
+  width: 100%;
+  height: 0.89rem;
+  background: #ffffff;
+  border-bottom: 1px solid #DCDCDC;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .zf_main .check1 span {
+  font-size: 0.27rem;
+  margin-left: 0.25rem;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.container section .zf_main .check1 a {
+  font-size: 0.27rem;
+  color: red;
+  margin-right: 0.28rem;
+}
+.container section .zf_main .check1 b {
+  margin-left: 0.25rem;
+}
+.container section .zf_main .check1 input[type="checkbox"] {
+  display: none;
+}
+.container section .zf_main .check1 input[type="checkbox"] + label {
+  margin-left: 0.3rem;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../img/mark.png") no-repeat bottom;
+  background-size: 0.38rem auto;
+  display: block;
+}
+.container section .zf_main .check1 input[type="checkbox"]:checked + label {
+  background-position: 0 0;
+}
+.container section .zf_main .check2 {
+  width: 100%;
+  height: 0.89rem;
+  background: #ffffff;
+  border-bottom: 1px solid #DCDCDC;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .zf_main .check2 span {
+  font-size: 0.27rem;
+  margin-left: 0.25rem;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.container section .zf_main .check2 a {
+  font-size: 0.27rem;
+  color: red;
+  margin-right: 0.28rem;
+}
+.container section .zf_main .check2 b {
+  margin-left: 0.25rem;
+}
+.container section .zf_main .check2 input[type="checkbox"] {
+  display: none;
+}
+.container section .zf_main .check2 input[type="checkbox"] + label {
+  margin-left: 0.3rem;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../img/mark.png") no-repeat bottom;
+  background-size: 0.38rem auto;
+  display: block;
+}
+.container section .zf_main .check2 input[type="checkbox"]:checked + label {
+  background-position: 0 0;
+}
+.container footer {
+  width: 100%;
+  height: 1.55rem;
+  background: #f2f5f7;
+  line-height: 1.55rem;
+}
+.container footer input {
+  width: null;
+  height: 0.8rem;
+  background: #4194f0;
+  width: 90.78125%;
+  margin-left: 0.26rem;
+  font-size: 0.3rem;
+  color: #ffffff;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header img {
+  width: 0.45rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+}
+.container header h1 {
+  font-size: 0.37rem;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: normal;
+}
+.container section {
+  position: relative;
+}
+.container section .nav1 {
+  width: null;
+  height: 0.85rem;
+  background: #f3f3f5;
+  line-height: 0.95rem;
+}
+.container section .nav1 input {
+  width: 90.625%;
+  border: none;
+  outline: none;
+  text-indent: 0.46rem;
+  font-size: 0.22rem;
+  color: #aaaaaa;
+  line-height: 0.6rem;
+  width: 7rem;
+  height: 0.6rem;
+  background: none;
+  margin-left: 0.35rem;
+  border-radius: 0.08rem;
+  background: #ffffff url("../img/search-icon.png") no-repeat 0.11rem center;
+}
+.container section .banner1 {
+  width: 100%;
+  height: 1.2rem;
+  background: none;
+}
+.container section .banner1 span {
+  width: 100%;
+  height: 0.48rem;
+  background: none;
+  display: block;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+  font-size: 0.24rem;
+  color: #aaaaaa;
+  margin-left: 0.29rem;
+}
+.container section .banner1 span img {
+  margin-right: 0.12rem;
+}
+.container section .banner1 h1 {
+  font-size: 0.26rem;
+  color: #4194f0;
+  margin-top: 0.15rem;
+  margin-left: 0.6rem;
+}
+.container section .tiao {
+  width: auto;
+  height: 0.45rem;
+  background: #f3f2f5;
+  margin-right: 0.53rem;
+}
+.container section .tiao h1 {
+  font-size: 0.26rem;
+  line-height: 0.45rem;
+  margin-left: 0.3rem;
+}
+.container section .main {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.99rem;
+  width: auto;
+  height: 0.99rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+  border-bottom: 1px solid #e6e9eb;
+}
+.container section .main span {
+  font-size: 0.35rem;
+  color: #4194F0;
+}
+.container section .main h1 {
+  font-size: 0.27rem;
+  color: #4194f0;
+  -webkit-box-flex: 1;
+}
+.container section .main1 {
+  line-height: 0.99rem;
+  width: auto;
+  height: 0.99rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+  border-bottom: 1px solid #e6e9eb;
+}
+.container section .main1 h1 {
+  font-size: 0.27rem;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header img {
+  width: 0.45rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+}
+.container header h1 {
+  font-size: 0.37rem;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: normal;
+}
+.container section form {
+  width: 100%;
+  height: 0.88rem;
+  background: #f3f2f5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section form .txt {
+  width: null;
+  height: 0.55rem;
+  background: none;
+  width: 75.3125%;
+  border: none;
+  outline: none;
+  margin-right: 0.15rem;
+  display: block;
+  font-size: 0.25rem;
+  color: #aaaaaa;
+  text-indent: 0.45rem;
+  margin-left: 0.3rem;
+  background: #ffffff url("../img/search-icon.png") no-repeat 0.1rem center;
+}
+.container section form .tx {
+  width: null;
+  height: 0.55rem;
+  background: #eaeaea;
+  width: 13.28125%;
+  display: block;
+  font-size: 0.25rem;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+.container section .no {
+  width: 100%;
+  height: 12.2rem;
+  background: none;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  padding-left: 25%;
+  box-sizing: border-box;
+}
+.container section .no ul {
+  padding-top: 0.1rem;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  text-align: center;
+  width: 4.15rem;
+  height: 2.05rem;
+  background: none;
+}
+.container section .no ul li a {
+  font-size: 0.28rem;
+  color: #000000;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header img {
+  width: 0.45rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+}
+.container header h1 {
+  font-size: 0.37rem;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: normal;
+}
+.container section form {
+  width: 100%;
+  height: 0.88rem;
+  background: #f3f2f5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section form .txt {
+  width: null;
+  height: 0.55rem;
+  background: none;
+  width: 75.3125%;
+  border: none;
+  outline: none;
+  margin-right: 0.15rem;
+  display: block;
+  font-size: 0.25rem;
+  color: #000000;
+  text-indent: 0.45rem;
+  margin-left: 0.3rem;
+  background: #ffffff url("../img/search-icon.png") no-repeat 0.1rem center;
+}
+.container section form .tx {
+  width: null;
+  height: 0.55rem;
+  background: #eaeaea;
+  width: 13.28125%;
+  display: block;
+  font-size: 0.25rem;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+.container section .yes .main {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.99rem;
+  width: auto;
+  height: 0.99rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+  border-bottom: 1px solid #e6e9eb;
+}
+.container section .yes .main span {
+  font-size: 0.35rem;
+  color: #4194F0;
+}
+.container section .yes .main h1 {
+  font-size: 0.27rem;
+  color: #4194f0;
+  -webkit-box-flex: 1;
+}
+.container section .yes .main1 {
+  line-height: 0.99rem;
+  width: auto;
+  height: 0.99rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+  border-bottom: 1px solid #e6e9eb;
+}
+.container section .yes .main1 h1 {
+  font-size: 0.27rem;
+}
+.container1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container1 header {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container1 header img {
+  width: 0.45rem;
+  height: auto;
+  background: none;
+  margin-left: 0.29rem;
+  margin-right: 1.6rem;
+}
+.container1 header form {
+  -webkit-box-flex: 1;
+}
+.container1 header form input {
+  width: 3.04rem;
+  height: 0.5rem;
+  background: none;
+  border-radius: 0.3rem;
+  font-size: 0.35rem;
+  color: #ffffff;
+  text-indent: 0.58rem;
+  border: none;
+  outline: none;
+  background: #3586e0 url(../img/bai.png) no-repeat 0.2rem center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container1 header a {
+  width: 1rem;
+  height: 0.58rem;
+  background: none;
+  display: block;
+  font-size: 0.2rem;
+  color: #ffffff;
+  margin-right: 0.3rem;
+}
+.container1 header a span img {
+  width: 0.32rem;
+  height: auto;
+  background: none;
+}
+.container1 section {
+  overflow: auto;
+}
+.container1 section span img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.container1 section .b {
+  width: 100%;
+  height: 8rem;
+  background: none;
+  margin-top: 1.87rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container1 section .b a {
+  width: 4rem;
+  height: 4.3rem;
+  background: none;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  margin-left: 25%;
+}
+.container1 section .b a .w {
+  margin-left: 0.5rem;
+}
+.container1 section .b a .w img {
+  width: 2.4rem;
+  height: auto;
+  background: none;
+}
+.container1 section .b a .h h1 {
+  font-size: 0.3rem;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.container1 section .b a .m {
+  width: 3.47rem;
+  height: 0.79rem;
+  background: none;
+  border: 1px solid #4194f0;
+  margin-left: 0.25rem;
+  font-size: 0.35rem;
+  color: #4194F0;
+  margin-top: 0.5rem;
+  border-radius: 0.45rem;
+}
+.container1 di {
+  width: 100%;
+  height: 0.98rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  box-shadow: 0 -3px 23px 15px #f4f4f4;
+  -webkit-box-align: center;
+}
+.container1 di dl {
+  text-align: center;
+  width: 2.6rem;
+  height: 0.98rem;
+  background: none;
+}
+.container1 di dl dt {
+  padding-top: 0.15rem;
+}
+.container1 di dl dd {
+  font-size: 0.22rem;
+}
